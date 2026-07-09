@@ -13,6 +13,14 @@ The architecture follows a **pipelined approach**:
 ---
 ## 🔄 Working Principle
 
+⚙️ Design Specifications
+Data Width: 16-bit
+Number of Inputs: 5
+Sorting Order: Descending
+Clock Edge: Positive edge triggered
+Architecture: Sequential + Combinational
+
+
 ### 1. Input Register Stage
 
 * Inputs (`in1` to `in5`) are captured on the **posedge of clk**
